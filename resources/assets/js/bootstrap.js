@@ -1,5 +1,7 @@
 
 window._ = require('lodash');
+window.io = require('socket.io-client');
+
 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
